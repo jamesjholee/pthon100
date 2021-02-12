@@ -30,18 +30,76 @@
 #     print("clinically obese") 
 
 # D3 Exercise 3
-# 🚨 Don't change the code below 👇
-year = int(input("Which year do you want to check? "))
-# 🚨 Don't change the code above 👆
+# # 🚨 Don't change the code below 👇
+# year = int(input("Which year do you want to check? "))
+# # 🚨 Don't change the code above 👆
 
-#Write your code below this line 👇
-if year % 4 == 0:
-    if year % 100 == 0:
-        if year % 400 == 0:
-            print("Leap Year")
-        else:
-            print("Not Leap Year")
-    else:
-        print("Leap Year")
-else: 
-    print('Not Leap Year')
+# #Write your code below this line 👇
+# if year % 4 == 0:
+#     if year % 100 == 0:
+#         if year % 400 == 0:
+#             print("Leap Year")
+#         else:
+#             print("Not Leap Year")
+#     else:
+#         print("Leap Year")
+# else: 
+#     print('Not Leap Year')
+
+# D3 Exercise 4
+# # 🚨 Don't change the code below 👇
+# print("Welcome to Python Pizza Deliveries!")
+# size = input("What size pizza do you want? S, M, or L ")
+# add_pepperoni = input("Do you want pepperoni? Y or N ")
+# extra_cheese = input("Do you want extra cheese? Y or N ")
+# # 🚨 Don't change the code above 👆
+
+# #Write your code below this line 👇
+# total = 0
+# if size == "S":
+#     total += 15
+#     if add_pepperoni == "Y":
+#         total += 2
+#         if extra_cheese == "Y":
+#             total +=1
+#             print(f"Your Final bill is: ${total}")
+#         else: 
+#             print(f"Your Final bill is: ${total}")
+#     else:
+#         if extra_cheese == "Y":
+#             total +=1
+#             print(f"Your Final bill is: ${total}")
+#         else: 
+#             print(f"Your Final bill is: ${total}")
+# elif size == "M":
+#     total += 20
+#     if add_pepperoni == "Y":
+#         total += 3
+#         if extra_cheese == "Y":
+#             total +=1
+#             print(f"Your Final bill is: ${total}")
+#         else: 
+#             print(f"Your Final bill is: ${total}")
+#     else:
+#         if extra_cheese == "Y":
+#             total +=1
+#             print(f"Your Final bill is: ${total}")
+#         else: 
+#             print(f"Your Final bill is: ${total}")
+# else:
+#     total += 25
+#     if add_pepperoni == "Y":
+#         total += 3
+#         if extra_cheese == "Y":
+#             total += 1
+#             print(f"Your Final bill is: ${total}")
+#         else: 
+#             print(f"Your Final bill is: ${total}")
+#     else:
+#         if extra_cheese == "Y":
+#             total += 1
+#             print(f"Your Final bill is: ${total}")
+#         else: 
+#             print(f"Your Final bill is: ${total}")
+
+# D3 Exercise 5
