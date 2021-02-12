@@ -103,3 +103,31 @@
 #             print(f"Your Final bill is: ${total}")
 
 # D3 Exercise 5
+# 🚨 Don't change the code below 👇
+print("Welcome to the Love Calculator!")
+name1 = input("What is your name? \n")
+name2 = input("What is their name? \n")
+# 🚨 Don't change the code above 👆
+
+#Write your code below this line 👇
+combined_name = name1.lower() + name2.lower()
+tens = 0
+tens += combined_name.count('t')
+tens += combined_name.count('r')
+tens += combined_name.count('u')
+tens += combined_name.count('e')
+
+ones = 0 
+ones += combined_name.count('l')
+ones += combined_name.count('o')
+ones += combined_name.count('v')
+ones += combined_name.count('e')
+
+lovenum = int(str(tens) + str(ones))
+
+if lovenum < 10 or lovenum > 90:
+    print(f"Your score is {lovenum}, you go together like coke and mentos.")
+elif lovenum > 40 and lovenum < 50:
+    print(f"Your score is {lovenum}, you are alright together.")
+else:
+    print(f"Your score is {lovenum}")
