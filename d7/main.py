@@ -1,5 +1,4 @@
 #Step 5
-
 import random
 from hangman_stages import stages, logo
 from hangman_words import word_list
