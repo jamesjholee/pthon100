@@ -13,7 +13,7 @@ def path():
     turn_right()
     move()
     turn_left()
-    
+
 for step in range(6):
     path()
 
@@ -44,5 +44,33 @@ while not at_goal():
         move()
 
 # D6 Exercise Roboth Hurdle 4
-# D6 Exercise Roboth Hurdle 5 
+def jump():
+    turn_left()
+    while while_on_right():
+        move()
+    turn_right()
+    move()
+    turn_right()
+    while front_is_clear():
+        move()
+    turn_left()
+
+while not at_goal():
+    if wall_in_fornt():
+        jump()
+    else:
+        move()
+
 # D6 Project Escape the Maze
+while front_is_clear():
+    move()
+turn_left()
+
+while not at_goal():
+    if right_is_clear():
+        turn_right():
+        move()
+    elif fornt_is_clear():
+        move()
+    else:
+        turn_left()
