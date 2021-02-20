@@ -34,9 +34,10 @@
 # pages = 0
 # word_per_page = 0
 # pages = int(input("Number of pages: "))
-# word_per_page == int(input("Number of words per page: "))
+# word_per_page = int(input("Number of words per page: "))
 # total_words = pages * word_per_page
 # print(total_words)
+# # the word per page variable had double equals
 
 # #Use a Debugger
 # def mutate(a_list):
