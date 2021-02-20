@@ -16,12 +16,12 @@
 # # the index of 6 does exist so cahgne range the function from 0 to 5
 
 # # Play Computer
-year = int(input("What's your year of birth?"))
-if year > 1980 and year < 1994:
-  print("You are a millenial.")
-elif year > 1994:
-  print("You are a Gen Z.")
-
+# year = int(input("What's your year of birth?"))
+# if year > 1980 and year < 1994:
+#   print("You are a millenial.")
+# elif year >= 1994:
+#   print("You are a Gen Z.")
+# # the number 1994 is not greater or less than any of the statemnts addd a equal statment to correct teh issue
 
 
 # # Fix the Errors
